@@ -1,0 +1,34 @@
+#### Authenticated Encryption
+#### MsgID= 21, KeyID=  1 Ad Size =   7, Pt Size =   12
+# Instruction: Opcode=Activate Key
+INS = 70000000
+# Instruction: Opcode=Authenticated Encryption
+INS = 20000000
+# Info :                     Npub, EOI=0 EOT=1, Last=0, Length=16 bytes
+HDR = D2000010
+DAT = 000102030405060708090A0B0C0D0E0F
+# Info :          Associated Data, EOI=0 EOT=1, Last=0, Length=7 bytes
+HDR = 12000007
+DAT = 0001020304050600
+# Info :                Plaintext, EOI=1 EOT=1, Last=1, Length=12 bytes
+HDR = 4700000c
+DAT = 000102030405060708090A0B
+
+#### Authenticated Decryption
+#### MsgID= 22, KeyID=  1 Ad Size =   7, Ct Size =   14
+# Instruction: Opcode=Authenticated Decryption
+INS = 30000000
+# Info :                     Npub, EOI=0 EOT=1, Last=0, Length=16 bytes
+HDR = D2000010
+DAT = 000102030405060708090A0B0C0D0E0F
+# Info :          Associated Data, EOI=0 EOT=1, Last=0, Length=7 bytes
+HDR = 12000007
+DAT = 0001020304050600
+# Info :                Ciphertext, EOI=1 EOT=1, Last=1, Length=14 bytes
+HDR = 5200000e
+DAT = 5CE878364474537EDF8FF6727F120000
+# Info :                      Tag, EOI=0 EOT=1, Last=1, Length=8 bytes
+HDR = 83000010
+DAT = 91EB2D219B9F6B8C3E59BAFCD0D31679
+
+###EOF

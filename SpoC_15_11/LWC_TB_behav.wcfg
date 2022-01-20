@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="LWC_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="LWC_TB" />
+            <top_module name="design_pkg" />
+            <top_module name="glbl" />
+            <top_module name="nist_lwapi_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2500833333fs"></ZoomStartTime>
+      <ZoomEndTime time="5235833334fs"></ZoomEndTime>
+      <Cursor1Time time="4780000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="213"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="156" />
+   <wvobject fp_name="/LWC_TB/simulation_fails" type="logic">
+      <obj_property name="ElementShortName">simulation_fails</obj_property>
+      <obj_property name="ObjectShortName">simulation_fails</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/stop_clock" type="other">
+      <obj_property name="ElementShortName">stop_clock</obj_property>
+      <obj_property name="ObjectShortName">stop_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/global_stop" type="logic">
+      <obj_property name="ElementShortName">global_stop</obj_property>
+      <obj_property name="ObjectShortName">global_stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fpdi_din" type="array">
+      <obj_property name="ElementShortName">fpdi_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fpdi_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fpdi_din_valid" type="logic">
+      <obj_property name="ElementShortName">fpdi_din_valid</obj_property>
+      <obj_property name="ObjectShortName">fpdi_din_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fpdi_din_ready" type="logic">
+      <obj_property name="ElementShortName">fpdi_din_ready</obj_property>
+      <obj_property name="ObjectShortName">fpdi_din_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fpdi_dout" type="array">
+      <obj_property name="ElementShortName">fpdi_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fpdi_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fpdi_dout_valid" type="logic">
+      <obj_property name="ElementShortName">fpdi_dout_valid</obj_property>
+      <obj_property name="ObjectShortName">fpdi_dout_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fpdi_dout_ready" type="logic">
+      <obj_property name="ElementShortName">fpdi_dout_ready</obj_property>
+      <obj_property name="ObjectShortName">fpdi_dout_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/pdi_delayed" type="array">
+      <obj_property name="ElementShortName">pdi_delayed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pdi_delayed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/pdi_valid" type="logic">
+      <obj_property name="ElementShortName">pdi_valid</obj_property>
+      <obj_property name="ObjectShortName">pdi_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/pdi_valid_selected" type="logic">
+      <obj_property name="ElementShortName">pdi_valid_selected</obj_property>
+      <obj_property name="ObjectShortName">pdi_valid_selected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/pdi_ready" type="logic">
+      <obj_property name="ElementShortName">pdi_ready</obj_property>
+      <obj_property name="ObjectShortName">pdi_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fsdi_din" type="array">
+      <obj_property name="ElementShortName">fsdi_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fsdi_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fsdi_din_valid" type="logic">
+      <obj_property name="ElementShortName">fsdi_din_valid</obj_property>
+      <obj_property name="ObjectShortName">fsdi_din_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fsdi_din_ready" type="logic">
+      <obj_property name="ElementShortName">fsdi_din_ready</obj_property>
+      <obj_property name="ObjectShortName">fsdi_din_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fsdi_dout" type="array">
+      <obj_property name="ElementShortName">fsdi_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fsdi_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fsdi_dout_valid" type="logic">
+      <obj_property name="ElementShortName">fsdi_dout_valid</obj_property>
+      <obj_property name="ObjectShortName">fsdi_dout_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fsdi_dout_ready" type="logic">
+      <obj_property name="ElementShortName">fsdi_dout_ready</obj_property>
+      <obj_property name="ObjectShortName">fsdi_dout_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/sdi_delayed" type="array">
+      <obj_property name="ElementShortName">sdi_delayed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sdi_delayed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/sdi_valid" type="logic">
+      <obj_property name="ElementShortName">sdi_valid</obj_property>
+      <obj_property name="ObjectShortName">sdi_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/sdi_valid_selected" type="logic">
+      <obj_property name="ElementShortName">sdi_valid_selected</obj_property>
+      <obj_property name="ObjectShortName">sdi_valid_selected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/sdi_ready" type="logic">
+      <obj_property name="ElementShortName">sdi_ready</obj_property>
+      <obj_property name="ObjectShortName">sdi_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/do" type="array">
+      <obj_property name="ElementShortName">do[31:0]</obj_property>
+      <obj_property name="ObjectShortName">do[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/do_valid" type="logic">
+      <obj_property name="ElementShortName">do_valid</obj_property>
+      <obj_property name="ObjectShortName">do_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/do_last" type="logic">
+      <obj_property name="ElementShortName">do_last</obj_property>
+      <obj_property name="ObjectShortName">do_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/do_ready" type="logic">
+      <obj_property name="ElementShortName">do_ready</obj_property>
+      <obj_property name="ObjectShortName">do_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/do_ready_selected" type="logic">
+      <obj_property name="ElementShortName">do_ready_selected</obj_property>
+      <obj_property name="ObjectShortName">do_ready_selected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fdo_din_ready" type="logic">
+      <obj_property name="ElementShortName">fdo_din_ready</obj_property>
+      <obj_property name="ObjectShortName">fdo_din_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fdo_din_valid" type="logic">
+      <obj_property name="ElementShortName">fdo_din_valid</obj_property>
+      <obj_property name="ObjectShortName">fdo_din_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fdo_dout" type="array">
+      <obj_property name="ElementShortName">fdo_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fdo_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fdo_dout_valid" type="logic">
+      <obj_property name="ElementShortName">fdo_dout_valid</obj_property>
+      <obj_property name="ObjectShortName">fdo_dout_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/fdo_dout_ready" type="logic">
+      <obj_property name="ElementShortName">fdo_dout_ready</obj_property>
+      <obj_property name="ObjectShortName">fdo_dout_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/stall_pdi_valid" type="logic">
+      <obj_property name="ElementShortName">stall_pdi_valid</obj_property>
+      <obj_property name="ObjectShortName">stall_pdi_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/stall_sdi_valid" type="logic">
+      <obj_property name="ElementShortName">stall_sdi_valid</obj_property>
+      <obj_property name="ObjectShortName">stall_sdi_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/stall_do_full" type="logic">
+      <obj_property name="ElementShortName">stall_do_full</obj_property>
+      <obj_property name="ObjectShortName">stall_do_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/tv_count" type="other">
+      <obj_property name="ElementShortName">tv_count</obj_property>
+      <obj_property name="ObjectShortName">tv_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/TestVector" type="other">
+      <obj_property name="ElementShortName">TestVector</obj_property>
+      <obj_property name="ObjectShortName">TestVector</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_STOP_AT_FAULT" type="other">
+      <obj_property name="ElementShortName">G_STOP_AT_FAULT</obj_property>
+      <obj_property name="ObjectShortName">G_STOP_AT_FAULT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_TEST_MODE" type="other">
+      <obj_property name="ElementShortName">G_TEST_MODE</obj_property>
+      <obj_property name="ObjectShortName">G_TEST_MODE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_TEST_IPSTALL" type="other">
+      <obj_property name="ElementShortName">G_TEST_IPSTALL</obj_property>
+      <obj_property name="ObjectShortName">G_TEST_IPSTALL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_TEST_ISSTALL" type="other">
+      <obj_property name="ElementShortName">G_TEST_ISSTALL</obj_property>
+      <obj_property name="ObjectShortName">G_TEST_ISSTALL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_TEST_OSTALL" type="other">
+      <obj_property name="ElementShortName">G_TEST_OSTALL</obj_property>
+      <obj_property name="ObjectShortName">G_TEST_OSTALL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_LOG2_FIFODEPTH" type="other">
+      <obj_property name="ElementShortName">G_LOG2_FIFODEPTH</obj_property>
+      <obj_property name="ObjectShortName">G_LOG2_FIFODEPTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_PERIOD" type="other">
+      <obj_property name="ElementShortName">G_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">G_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_FNAME_PDI" type="array">
+      <obj_property name="ElementShortName">G_FNAME_PDI[1:7]</obj_property>
+      <obj_property name="ObjectShortName">G_FNAME_PDI[1:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_FNAME_SDI" type="array">
+      <obj_property name="ElementShortName">G_FNAME_SDI[1:7]</obj_property>
+      <obj_property name="ObjectShortName">G_FNAME_SDI[1:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_FNAME_DO" type="array">
+      <obj_property name="ElementShortName">G_FNAME_DO[1:6]</obj_property>
+      <obj_property name="ObjectShortName">G_FNAME_DO[1:6]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_FNAME_LOG" type="array">
+      <obj_property name="ElementShortName">G_FNAME_LOG[1:7]</obj_property>
+      <obj_property name="ObjectShortName">G_FNAME_LOG[1:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_FNAME_RESULT" type="array">
+      <obj_property name="ElementShortName">G_FNAME_RESULT[1:10]</obj_property>
+      <obj_property name="ObjectShortName">G_FNAME_RESULT[1:10]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_PWIDTH" type="other">
+      <obj_property name="ElementShortName">G_PWIDTH</obj_property>
+      <obj_property name="ObjectShortName">G_PWIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/G_SWIDTH" type="other">
+      <obj_property name="ElementShortName">G_SWIDTH</obj_property>
+      <obj_property name="ObjectShortName">G_SWIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/io_clk_period" type="other">
+      <obj_property name="ElementShortName">io_clk_period</obj_property>
+      <obj_property name="ObjectShortName">io_clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/cons_tb" type="array">
+      <obj_property name="ElementShortName">cons_tb[1:6]</obj_property>
+      <obj_property name="ObjectShortName">cons_tb[1:6]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/cons_ins" type="array">
+      <obj_property name="ElementShortName">cons_ins[1:6]</obj_property>
+      <obj_property name="ObjectShortName">cons_ins[1:6]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/cons_hdr" type="array">
+      <obj_property name="ElementShortName">cons_hdr[1:6]</obj_property>
+      <obj_property name="ObjectShortName">cons_hdr[1:6]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/cons_dat" type="array">
+      <obj_property name="ElementShortName">cons_dat[1:6]</obj_property>
+      <obj_property name="ObjectShortName">cons_dat[1:6]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/cons_stt" type="array">
+      <obj_property name="ElementShortName">cons_stt[1:6]</obj_property>
+      <obj_property name="ObjectShortName">cons_stt[1:6]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/cons_eof" type="array">
+      <obj_property name="ElementShortName">cons_eof[1:6]</obj_property>
+      <obj_property name="ObjectShortName">cons_eof[1:6]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/debug_input" type="other">
+      <obj_property name="ElementShortName">debug_input</obj_property>
+      <obj_property name="ObjectShortName">debug_input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/debug_output" type="other">
+      <obj_property name="ElementShortName">debug_output</obj_property>
+      <obj_property name="ObjectShortName">debug_output</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/state" type="array">
+      <obj_property name="ElementShortName">state[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/step_func/sout" type="array">
+      <obj_property name="ElementShortName">sout[255:0]</obj_property>
+      <obj_property name="ObjectShortName">sout[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/step_func/rc1" type="array">
+      <obj_property name="ElementShortName">rc1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rc1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/step_func/rc0" type="array">
+      <obj_property name="ElementShortName">rc0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rc0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/step_func/sc1" type="array">
+      <obj_property name="ElementShortName">sc1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sc1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/step_func/sc0" type="array">
+      <obj_property name="ElementShortName">sc0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sc0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/tag_0" type="array">
+      <obj_property name="ElementShortName">tag_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/tag_1" type="array">
+      <obj_property name="ElementShortName">tag_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/tag_2" type="array">
+      <obj_property name="ElementShortName">tag_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/tag_3" type="array">
+      <obj_property name="ElementShortName">tag_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/bdi_reg" type="array">
+      <obj_property name="ElementShortName">bdi_reg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">bdi_reg[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/bdo" type="array">
+      <obj_property name="ElementShortName">bdo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bdo[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/en_bdo_ctr" type="logic">
+      <obj_property name="ElementShortName">en_bdo_ctr</obj_property>
+      <obj_property name="ObjectShortName">en_bdo_ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/bdo_ctr" type="array">
+      <obj_property name="ElementShortName">bdo_ctr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bdo_ctr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_key" type="logic">
+      <obj_property name="ElementShortName">en_key</obj_property>
+      <obj_property name="ObjectShortName">en_key</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_npub" type="logic">
+      <obj_property name="ElementShortName">en_npub</obj_property>
+      <obj_property name="ObjectShortName">en_npub</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_bdi" type="logic">
+      <obj_property name="ElementShortName">en_bdi</obj_property>
+      <obj_property name="ObjectShortName">en_bdi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/bdi_size" type="array">
+      <obj_property name="ElementShortName">bdi_size[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bdi_size[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/bdi_ctr" type="array">
+      <obj_property name="ElementShortName">bdi_ctr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bdi_ctr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/cum_size" type="array">
+      <obj_property name="ElementShortName">cum_size[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cum_size[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/bdi_partial_reg" type="logic">
+      <obj_property name="ElementShortName">bdi_partial_reg</obj_property>
+      <obj_property name="ObjectShortName">bdi_partial_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/store_bdi_partial" type="logic">
+      <obj_property name="ElementShortName">store_bdi_partial</obj_property>
+      <obj_property name="ObjectShortName">store_bdi_partial</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/fsm_state" type="array">
+      <obj_property name="ElementShortName">fsm_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/rnd_done" type="logic">
+      <obj_property name="ElementShortName">rnd_done</obj_property>
+      <obj_property name="ObjectShortName">rnd_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_rnd_ctr" type="logic">
+      <obj_property name="ElementShortName">en_rnd_ctr</obj_property>
+      <obj_property name="ObjectShortName">en_rnd_ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_step_ctr" type="logic">
+      <obj_property name="ElementShortName">en_step_ctr</obj_property>
+      <obj_property name="ObjectShortName">en_step_ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/fsm_state" type="logic">
+      <obj_property name="ElementShortName">fsm_state</obj_property>
+      <obj_property name="ObjectShortName">fsm_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/step_out" type="array">
+      <obj_property name="ElementShortName">step_out[255:0]</obj_property>
+      <obj_property name="ObjectShortName">step_out[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/step_in" type="array">
+      <obj_property name="ElementShortName">step_in[255:0]</obj_property>
+      <obj_property name="ObjectShortName">step_in[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/bdi" type="array">
+      <obj_property name="ElementShortName">bdi[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bdi[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/bdi_reg" type="array">
+      <obj_property name="ElementShortName">bdi_reg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">bdi_reg[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/bdi_pad_input" type="array">
+      <obj_property name="ElementShortName">bdi_pad_input[127:0]</obj_property>
+      <obj_property name="ObjectShortName">bdi_pad_input[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/bdi_pad_half" type="array">
+      <obj_property name="ElementShortName">bdi_pad_half[127:0]</obj_property>
+      <obj_property name="ObjectShortName">bdi_pad_half[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_state_in" type="logic">
+      <obj_property name="ElementShortName">en_state_in</obj_property>
+      <obj_property name="ObjectShortName">en_state_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/io_clk" type="logic">
+      <obj_property name="ElementShortName">io_clk</obj_property>
+      <obj_property name="ObjectShortName">io_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_key" type="logic">
+      <obj_property name="ElementShortName">en_key</obj_property>
+      <obj_property name="ObjectShortName">en_key</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_npub" type="logic">
+      <obj_property name="ElementShortName">en_npub</obj_property>
+      <obj_property name="ObjectShortName">en_npub</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_bdi" type="logic">
+      <obj_property name="ElementShortName">en_bdi</obj_property>
+      <obj_property name="ObjectShortName">en_bdi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/ctrl_word" type="array">
+      <obj_property name="ElementShortName">ctrl_word[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrl_word[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/eoi_flag" type="logic">
+      <obj_property name="ElementShortName">eoi_flag</obj_property>
+      <obj_property name="ObjectShortName">eoi_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/set_eoi_flag" type="logic">
+      <obj_property name="ElementShortName">set_eoi_flag</obj_property>
+      <obj_property name="ObjectShortName">set_eoi_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/bdi_eoi" type="logic">
+      <obj_property name="ElementShortName">bdi_eoi</obj_property>
+      <obj_property name="ObjectShortName">bdi_eoi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/bdi_eot" type="logic">
+      <obj_property name="ElementShortName">bdi_eot</obj_property>
+      <obj_property name="ObjectShortName">bdi_eot</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/set_eot_flag" type="logic">
+      <obj_property name="ElementShortName">set_eot_flag</obj_property>
+      <obj_property name="ObjectShortName">set_eot_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/eot_flag" type="logic">
+      <obj_property name="ElementShortName">eot_flag</obj_property>
+      <obj_property name="ObjectShortName">eot_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/reset_eot_flag" type="logic">
+      <obj_property name="ElementShortName">reset_eot_flag</obj_property>
+      <obj_property name="ObjectShortName">reset_eot_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/bdi_valid" type="logic">
+      <obj_property name="ElementShortName">bdi_valid</obj_property>
+      <obj_property name="ObjectShortName">bdi_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/fsm_state" type="array">
+      <obj_property name="ElementShortName">fsm_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/next_fsm_state" type="array">
+      <obj_property name="ElementShortName">next_fsm_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_fsm_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/fsm_state" type="array">
+      <obj_property name="ElementShortName">fsm_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_state" type="logic">
+      <obj_property name="ElementShortName">en_state</obj_property>
+      <obj_property name="ObjectShortName">en_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_rnd_ctr" type="logic">
+      <obj_property name="ElementShortName">en_rnd_ctr</obj_property>
+      <obj_property name="ObjectShortName">en_rnd_ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/fsm_state" type="logic">
+      <obj_property name="ElementShortName">fsm_state</obj_property>
+      <obj_property name="ObjectShortName">fsm_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/next_fsm_state" type="logic">
+      <obj_property name="ElementShortName">next_fsm_state</obj_property>
+      <obj_property name="ObjectShortName">next_fsm_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/step_done" type="logic">
+      <obj_property name="ElementShortName">step_done</obj_property>
+      <obj_property name="ObjectShortName">step_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/state" type="array">
+      <obj_property name="ElementShortName">state[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/init_lock" type="logic">
+      <obj_property name="ElementShortName">init_lock</obj_property>
+      <obj_property name="ObjectShortName">init_lock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/bdi_partial" type="logic">
+      <obj_property name="ElementShortName">bdi_partial</obj_property>
+      <obj_property name="ObjectShortName">bdi_partial</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/bdi_partial_reg" type="logic">
+      <obj_property name="ElementShortName">bdi_partial_reg</obj_property>
+      <obj_property name="ObjectShortName">bdi_partial_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/store_bdi_partial" type="logic">
+      <obj_property name="ElementShortName">store_bdi_partial</obj_property>
+      <obj_property name="ObjectShortName">store_bdi_partial</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/bdo_ctr" type="array">
+      <obj_property name="ElementShortName">bdo_ctr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bdo_ctr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/bdo_sel" type="array">
+      <obj_property name="ElementShortName">bdo_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bdo_sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/sel_tag" type="logic">
+      <obj_property name="ElementShortName">sel_tag</obj_property>
+      <obj_property name="ObjectShortName">sel_tag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/bdo_ctr" type="array">
+      <obj_property name="ElementShortName">bdo_ctr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bdo_ctr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/ptct_0" type="array">
+      <obj_property name="ElementShortName">ptct_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ptct_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/ptct_1" type="array">
+      <obj_property name="ElementShortName">ptct_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ptct_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/ptct_2" type="array">
+      <obj_property name="ElementShortName">ptct_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ptct_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/ptct_3" type="array">
+      <obj_property name="ElementShortName">ptct_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ptct_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/state" type="array">
+      <obj_property name="ElementShortName">state[255:0]</obj_property>
+      <obj_property name="ObjectShortName">state[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/ctrl_code" type="array">
+      <obj_property name="ElementShortName">ctrl_code[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrl_code[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/lock_tag_state" type="logic">
+      <obj_property name="ElementShortName">lock_tag_state</obj_property>
+      <obj_property name="ObjectShortName">lock_tag_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/bdo_valid" type="logic">
+      <obj_property name="ElementShortName">bdo_valid</obj_property>
+      <obj_property name="ObjectShortName">bdo_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/bdo_ready" type="logic">
+      <obj_property name="ElementShortName">bdo_ready</obj_property>
+      <obj_property name="ObjectShortName">bdo_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/bdo_ready" type="logic">
+      <obj_property name="ElementShortName">bdo_ready</obj_property>
+      <obj_property name="ObjectShortName">bdo_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/perm_done" type="logic">
+      <obj_property name="ElementShortName">perm_done</obj_property>
+      <obj_property name="ObjectShortName">perm_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/TR" type="array">
+      <obj_property name="ElementShortName">TR[55:0]</obj_property>
+      <obj_property name="ObjectShortName">TR[55:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/TR_check" type="logic">
+      <obj_property name="ElementShortName">TR_check</obj_property>
+      <obj_property name="ObjectShortName">TR_check</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/ctrl_inst/cum_size" type="array">
+      <obj_property name="ElementShortName">cum_size[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cum_size[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/bdi_pad_input" type="array">
+      <obj_property name="ElementShortName">bdi_pad_input[127:0]</obj_property>
+      <obj_property name="ObjectShortName">bdi_pad_input[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/TR" type="array">
+      <obj_property name="ElementShortName">TR[55:0]</obj_property>
+      <obj_property name="ObjectShortName">TR[55:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/TR_check" type="logic">
+      <obj_property name="ElementShortName">TR_check</obj_property>
+      <obj_property name="ObjectShortName">TR_check</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/reset_TR" type="logic">
+      <obj_property name="ElementShortName">reset_TR</obj_property>
+      <obj_property name="ObjectShortName">reset_TR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/set_TR" type="logic">
+      <obj_property name="ElementShortName">set_TR</obj_property>
+      <obj_property name="ObjectShortName">set_TR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_key" type="logic">
+      <obj_property name="ElementShortName">en_key</obj_property>
+      <obj_property name="ObjectShortName">en_key</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_npub" type="logic">
+      <obj_property name="ElementShortName">en_npub</obj_property>
+      <obj_property name="ObjectShortName">en_npub</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/en_bdi" type="logic">
+      <obj_property name="ElementShortName">en_bdi</obj_property>
+      <obj_property name="ObjectShortName">en_bdi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/ctrl_word" type="array">
+      <obj_property name="ElementShortName">ctrl_word[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrl_word[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/CT_is_PT" type="logic">
+      <obj_property name="ElementShortName">CT_is_PT</obj_property>
+      <obj_property name="ObjectShortName">CT_is_PT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LWC_TB/uut/Inst_Cipher/data_path_inst/bdi_reg" type="array">
+      <obj_property name="ElementShortName">bdi_reg[127:0]</obj_property>
+      <obj_property name="ObjectShortName">bdi_reg[127:0]</obj_property>
+   </wvobject>
+</wave_config>

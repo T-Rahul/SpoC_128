@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/After 19-5-2020/spoc/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/After 19-5-2020/spoc/CryptoCore.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CryptoCore
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/After 19-5-2020/spoc/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/After 19-5-2020/spoc/SB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/After 19-5-2020/spoc/SliSCP_step.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SLiSCP_step
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/After 19-5-2020/spoc/d_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_ff

@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../After 19-5-2020/spoc/design_pkg.vhd" \
+"../../../../../../../After 19-5-2020/spoc/NIST_LWAPI_pkg.vhd" \
+"../../../../../../../After 19-5-2020/spoc/StepDownCountLd.vhd" \
+"../../../../../../../After 19-5-2020/spoc/key_piso.vhd" \
+"../../../../../../../After 19-5-2020/spoc/data_piso.vhd" \
+"../../../../../../../After 19-5-2020/spoc/PreProcessor.vhd" \
+"../../../../../../../After 19-5-2020/spoc/data_sipo.vhd" \
+"../../../../../../../After 19-5-2020/spoc/PostProcessor.vhd" \
+"../../../../../../../After 19-5-2020/spoc/fwft_fifo.vhd" \
+"../../../../../../../After 19-5-2020/spoc/LWC.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../../../../After 19-5-2020/spoc/LWC_TB.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jun  8 12:58:29 2021
+# Process ID: 16084
+# Current directory: C:/After 19-5-2020/Sem 7/B.Tech TerM Project/Project Submission/SpoC API/SpoC_15_11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12464 C:\After 19-5-2020\Sem 7\B.Tech TerM Project\Project Submission\SpoC API\SpoC_15_11\SpoC_15_11.xpr
+# Log file: C:/After 19-5-2020/Sem 7/B.Tech TerM Project/Project Submission/SpoC API/SpoC_15_11/vivado.log
+# Journal file: C:/After 19-5-2020/Sem 7/B.Tech TerM Project/Project Submission/SpoC API/SpoC_15_11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/After 19-5-2020/Sem 7/B.Tech TerM Project/Project Submission/SpoC API/SpoC_15_11/SpoC_15_11.xpr}
+update_compile_order -fileset sources_1

@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jun  8 12:58:29 2021
+# Process ID: 16084
+# Current directory: C:/After 19-5-2020/Sem 7/B.Tech TerM Project/Project Submission/SpoC API/SpoC_15_11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12464 C:\After 19-5-2020\Sem 7\B.Tech TerM Project\Project Submission\SpoC API\SpoC_15_11\SpoC_15_11.xpr
+# Log file: C:/After 19-5-2020/Sem 7/B.Tech TerM Project/Project Submission/SpoC API/SpoC_15_11/vivado.log
+# Journal file: C:/After 19-5-2020/Sem 7/B.Tech TerM Project/Project Submission/SpoC API/SpoC_15_11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/After 19-5-2020/Sem 7/B.Tech TerM Project/Project Submission/SpoC API/SpoC_15_11/SpoC_15_11.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/Project Submission/SpoC API/SpoC_15_11'
+INFO: [Project 1-313] Project file moved from 'C:/Users/HP/SpoC_15_11' since last save.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/Controller.v'; using path 'C:/After 19-5-2020/spoc/Controller.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/CryptoCore.v'; using path 'C:/After 19-5-2020/spoc/CryptoCore.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/Datapath.v'; using path 'C:/After 19-5-2020/spoc/Datapath.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/SB.v'; using path 'C:/After 19-5-2020/spoc/SB.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/SliSCP_step.v'; using path 'C:/After 19-5-2020/spoc/SliSCP_step.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/d_ff.v'; using path 'C:/After 19-5-2020/spoc/d_ff.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/design_pkg.vhd'; using path 'C:/After 19-5-2020/spoc/design_pkg.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/NIST_LWAPI_pkg.vhd'; using path 'C:/After 19-5-2020/spoc/NIST_LWAPI_pkg.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/StepDownCountLd.vhd'; using path 'C:/After 19-5-2020/spoc/StepDownCountLd.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/key_piso.vhd'; using path 'C:/After 19-5-2020/spoc/key_piso.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/data_piso.vhd'; using path 'C:/After 19-5-2020/spoc/data_piso.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/PreProcessor.vhd'; using path 'C:/After 19-5-2020/spoc/PreProcessor.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/data_sipo.vhd'; using path 'C:/After 19-5-2020/spoc/data_sipo.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/PostProcessor.vhd'; using path 'C:/After 19-5-2020/spoc/PostProcessor.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/fwft_fifo.vhd'; using path 'C:/After 19-5-2020/spoc/fwft_fifo.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/LWC.vhd'; using path 'C:/After 19-5-2020/spoc/LWC.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/Reg.vhd'; using path 'C:/After 19-5-2020/spoc/Reg.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/RegLd.vhd'; using path 'C:/After 19-5-2020/spoc/RegLd.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/RegN.vhd'; using path 'C:/After 19-5-2020/spoc/RegN.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/UpCountRst.vhd'; using path 'C:/After 19-5-2020/spoc/UpCountRst.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/LWC_TB.vhd'; using path 'C:/After 19-5-2020/spoc/LWC_TB.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/std_logic_1164_additions.vhd'; using path 'C:/After 19-5-2020/spoc/std_logic_1164_additions.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/GeneralComponents_pkg.vhd'; using path 'C:/After 19-5-2020/spoc/GeneralComponents_pkg.vhd' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/Controller.v'; using path 'C:/After 19-5-2020/spoc/Controller.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/CryptoCore.v'; using path 'C:/After 19-5-2020/spoc/CryptoCore.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/Datapath.v'; using path 'C:/After 19-5-2020/spoc/Datapath.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/SB.v'; using path 'C:/After 19-5-2020/spoc/SB.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/SliSCP_step.v'; using path 'C:/After 19-5-2020/spoc/SliSCP_step.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/d_ff.v'; using path 'C:/After 19-5-2020/spoc/d_ff.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/design_pkg.vhd'; using path 'C:/After 19-5-2020/spoc/design_pkg.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/NIST_LWAPI_pkg.vhd'; using path 'C:/After 19-5-2020/spoc/NIST_LWAPI_pkg.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/StepDownCountLd.vhd'; using path 'C:/After 19-5-2020/spoc/StepDownCountLd.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/key_piso.vhd'; using path 'C:/After 19-5-2020/spoc/key_piso.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/data_piso.vhd'; using path 'C:/After 19-5-2020/spoc/data_piso.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/PreProcessor.vhd'; using path 'C:/After 19-5-2020/spoc/PreProcessor.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/data_sipo.vhd'; using path 'C:/After 19-5-2020/spoc/data_sipo.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/PostProcessor.vhd'; using path 'C:/After 19-5-2020/spoc/PostProcessor.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/fwft_fifo.vhd'; using path 'C:/After 19-5-2020/spoc/fwft_fifo.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/LWC.vhd'; using path 'C:/After 19-5-2020/spoc/LWC.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/Reg.vhd'; using path 'C:/After 19-5-2020/spoc/Reg.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/RegLd.vhd'; using path 'C:/After 19-5-2020/spoc/RegLd.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/RegN.vhd'; using path 'C:/After 19-5-2020/spoc/RegN.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/UpCountRst.vhd'; using path 'C:/After 19-5-2020/spoc/UpCountRst.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/LWC_TB.vhd'; using path 'C:/After 19-5-2020/spoc/LWC_TB.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/std_logic_1164_additions.vhd'; using path 'C:/After 19-5-2020/spoc/std_logic_1164_additions.vhd' instead.
+WARNING: [Project 1-312] File not found as 'C:/After 19-5-2020/Sem 7/B.Tech TerM Project/After 19-5-2020/spoc/GeneralComponents_pkg.vhd'; using path 'C:/After 19-5-2020/spoc/GeneralComponents_pkg.vhd' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 896.109 ; gain = 138.219
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  8 12:59:38 2021...

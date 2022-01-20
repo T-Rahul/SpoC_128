@@ -1,0 +1,22 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/After 19-5-2020/spoc/Controller.v,1613323131,verilog,,C:/After 19-5-2020/spoc/CryptoCore.v,,Controller,,,,,,,,
+C:/After 19-5-2020/spoc/CryptoCore.v,1605362214,verilog,,C:/After 19-5-2020/spoc/Datapath.v,,CryptoCore,,,,,,,,
+C:/After 19-5-2020/spoc/Datapath.v,1613361406,verilog,,C:/After 19-5-2020/spoc/SB.v,,Datapath,,,,,,,,
+C:/After 19-5-2020/spoc/LWC.vhd,1599358780,vhdl,C:/After 19-5-2020/spoc/LWC_TB.vhd,,,lwc,,,,,,,,
+C:/After 19-5-2020/spoc/LWC_TB.vhd,1605529089,vhdl2008,,,,lwc_tb,,,,,,,,
+C:/After 19-5-2020/spoc/NIST_LWAPI_pkg.vhd,1599358780,vhdl,C:/After 19-5-2020/spoc/LWC.vhd;C:/After 19-5-2020/spoc/LWC_TB.vhd;C:/After 19-5-2020/spoc/PostProcessor.vhd;C:/After 19-5-2020/spoc/PreProcessor.vhd;C:/After 19-5-2020/spoc/data_piso.vhd;C:/After 19-5-2020/spoc/data_sipo.vhd;C:/After 19-5-2020/spoc/key_piso.vhd,,,nist_lwapi_pkg,,,,,,,,
+C:/After 19-5-2020/spoc/PostProcessor.vhd,1599358780,vhdl,C:/After 19-5-2020/spoc/LWC.vhd,,,postprocessor,,,,,,,,
+C:/After 19-5-2020/spoc/PreProcessor.vhd,1599358780,vhdl,C:/After 19-5-2020/spoc/LWC.vhd,,,preprocessor,,,,,,,,
+C:/After 19-5-2020/spoc/SB.v,1605590431,verilog,,C:/After 19-5-2020/spoc/SliSCP_step.v,,SB,,,,,,,,
+C:/After 19-5-2020/spoc/SliSCP_step.v,1605590438,verilog,,C:/After 19-5-2020/spoc/d_ff.v,,SLiSCP_step,,,,,,,,
+C:/After 19-5-2020/spoc/StepDownCountLd.vhd,1599358780,vhdl,C:/After 19-5-2020/spoc/PostProcessor.vhd;C:/After 19-5-2020/spoc/PreProcessor.vhd,,,stepdowncountld,,,,,,,,
+C:/After 19-5-2020/spoc/d_ff.v,1605590493,verilog,,,,d_ff,,,,,,,,
+C:/After 19-5-2020/spoc/data_piso.vhd,1599358780,vhdl,C:/After 19-5-2020/spoc/PreProcessor.vhd,,,data_piso,,,,,,,,
+C:/After 19-5-2020/spoc/data_sipo.vhd,1599358780,vhdl,C:/After 19-5-2020/spoc/PostProcessor.vhd,,,data_sipo,,,,,,,,
+C:/After 19-5-2020/spoc/design_pkg.vhd,1613310629,vhdl,C:/After 19-5-2020/spoc/LWC.vhd;C:/After 19-5-2020/spoc/PostProcessor.vhd;C:/After 19-5-2020/spoc/PreProcessor.vhd;C:/After 19-5-2020/spoc/data_piso.vhd;C:/After 19-5-2020/spoc/data_sipo.vhd;C:/After 19-5-2020/spoc/key_piso.vhd,,,design_pkg,,,,,,,,
+C:/After 19-5-2020/spoc/fwft_fifo.vhd,1599358780,vhdl,C:/After 19-5-2020/spoc/LWC.vhd;C:/After 19-5-2020/spoc/LWC_TB.vhd,,,fwft_fifo,,,,,,,,
+C:/After 19-5-2020/spoc/key_piso.vhd,1599358780,vhdl,C:/After 19-5-2020/spoc/PreProcessor.vhd,,,key_piso,,,,,,,,
+C:/Users/HP/SpoC_15_11/SpoC_15_11.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,

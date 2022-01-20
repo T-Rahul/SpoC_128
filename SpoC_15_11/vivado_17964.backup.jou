@@ -1,0 +1,140 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Nov 22 13:46:00 2020
+# Process ID: 17964
+# Current directory: C:/Users/HP/SpoC_15_11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18136 C:\Users\HP\SpoC_15_11\SpoC_15_11.xpr
+# Log file: C:/Users/HP/SpoC_15_11/vivado.log
+# Journal file: C:/Users/HP/SpoC_15_11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/HP/SpoC_15_11/SpoC_15_11.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/HP/SpoC_15_11/LWC_TB_behav.wcfg
+source LWC_TB.tcl
+restart
+run all
+run all
+run all
+restart
+run all
+run all
+run all
+run all
+run all
+open_project C:/Users/HP/SpoC_128_16_11/SpoC_128_16_11.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source SpoC_Enc.tcl
+close_sim
+launch_simulation
+source SpoC_Enc.tcl
+current_project SpoC_15_11
+current_sim simulation_1
+current_wave_config {LWC_TB_behav.wcfg}
+add_wave {{/LWC_TB/uut/Inst_Cipher/data_path_inst/state}} 
+current_project SpoC_128_16_11
+current_sim simulation_3
+close_sim
+launch_simulation
+source SpoC_Enc.tcl
+close_sim
+launch_simulation
+source SpoC_Enc.tcl
+current_project SpoC_15_11
+current_project SpoC_128_16_11
+current_wave_config {Untitled 4}
+add_wave {{/SpoC_Enc/e2/State}} 
+restart
+run all
+current_project SpoC_15_11
+current_project SpoC_128_16_11
+current_wave_config {Untitled 4}
+add_wave {{/SpoC_Enc/e2/a2/Sout}} {{/SpoC_Enc/e2/a2/S1}} 
+current_project SpoC_15_11
+current_sim simulation_1
+current_wave_config {LWC_TB_behav.wcfg}
+add_wave {{/LWC_TB/uut/Inst_Cipher/data_path_inst/ctrl_word}} 
+current_wave_config {LWC_TB_behav.wcfg}
+add_wave {{/LWC_TB/uut/Inst_Cipher/data_path_inst/ctrl_code}} 
+restart
+run all
+current_wave_config {LWC_TB_behav.wcfg}
+add_wave {{/LWC_TB/uut/Inst_Cipher/data_path_inst/bdi_partial_reg}} 
+restart
+run all
+current_wave_config {LWC_TB_behav.wcfg}
+add_wave {{/LWC_TB/uut/Inst_Cipher/ctrl_inst/bdi_size}} 
+restart
+run all
+current_wave_config {LWC_TB_behav.wcfg}
+add_wave {{/LWC_TB/uut/Inst_Cipher/ctrl_inst/store_bdi_partial}} 
+restart
+run all
+current_project SpoC_128_16_11
+current_sim simulation_5
+restart
+run all
+run all
+restart
+run 2 ps
+current_project SpoC_15_11
+current_sim simulation_1
+current_wave_config {LWC_TB_behav.wcfg}
+add_wave {{/LWC_TB/uut/Inst_Cipher/data_path_inst/cum_size}} 
+restart
+run 2 ps
+restart
+run all
+save_wave_config {C:/Users/HP/SpoC_15_11/LWC_TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/HP/SpoC_15_11/LWC_TB_behav.wcfg
+source LWC_TB.tcl
+run all
+restart
+run all
+current_project SpoC_128_16_11
+current_sim simulation_5
+current_wave_config {Untitled 4}
+add_wave {{/SpoC_Enc/e3/S_last}} 
+restart
+run 2 ps
+current_wave_config {Untitled 4}
+add_wave {{/SpoC_Enc/e3/a2/\genblk1[0].SH /Sout}} 
+restart
+run 2 ps
+current_wave_config {Untitled 4}
+add_wave {{/SpoC_Enc/e3/a2/\genblk1[17].SH /Sout}} 
+restart
+run 2 ps
+current_project SpoC_15_11
+current_sim simulation_6
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/HP/SpoC_15_11/LWC_TB_behav.wcfg
+source LWC_TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/HP/SpoC_15_11/LWC_TB_behav.wcfg
+source LWC_TB.tcl
+restart
+run all
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/HP/SpoC_15_11/LWC_TB_behav.wcfg
+source LWC_TB.tcl
+restart
+run all
+close_sim
+close_project
+save_wave_config {C:/Users/HP/SpoC_128_16_11/SpoC_Enc_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/HP/SpoC_128_16_11/SpoC_Enc_behav.wcfg
+set_property xsim.view C:/Users/HP/SpoC_128_16_11/SpoC_Enc_behav.wcfg [get_filesets sim_1]
+close_sim

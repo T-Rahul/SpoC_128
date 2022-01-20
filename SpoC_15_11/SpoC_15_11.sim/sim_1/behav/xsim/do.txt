@@ -1,0 +1,24 @@
+#### Authenticated Encryption
+#### MsgID= 21, KeyID=  1 Ad Size =   7, Pt Size =   12
+# Instruction: Opcode=Authenticated Encryption
+# TB :20119f (Encoding used by testbench)
+# Info :               Ciphertext, EOT=1, Last=0, Length=12 bytes
+HDR = 5200000c
+DAT = 000102030405060708090A0B
+# Info :                      Tag, EOT=1, Last=1, Length=16 bytes
+HDR = 83000010
+DAT = AC424C782E297ECEB5CB5A6911DDCB9F
+# Status: Success
+STT = E0000000
+
+#### Authenticated Decryption
+#### MsgID= 22, KeyID=  1 Ad Size =   7, Ct Size =   14
+# Instruction: Opcode=Authenticated Decryption
+# TB :30143d (Encoding used by testbench)
+# Info :               Plaintext, EOT=1, Last=1, Length=14 bytes
+HDR = 4300000e
+DAT = 5CE878364474537EDF8FF6727F120000
+# Status: Success
+STT = E0000000
+
+###EOF

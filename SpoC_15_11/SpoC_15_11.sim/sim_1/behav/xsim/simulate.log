@@ -1,0 +1,102 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Error: ---------Started verifying message number 1 at 60000 ps
+Time: 60 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 1 at 60000 ps
+Time: 60 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 2 at 1735000 ps
+Time: 1735 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 3 at 3265000 ps
+Time: 3265 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 4 at 6335000 ps
+Time: 6335 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 5 at 9315000 ps
+Time: 9315 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 6 at 16895000 ps
+Time: 16895 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 202 at 24385000 ps
+Time: 24385 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 202 at 29025000 ps
+Time: 29025 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 25 at 33575000 ps
+Time: 33575 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 25 at 39615000 ps
+Time: 39615 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 45565000 ps
+Time: 45565 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 53065000 ps
+Time: 53065 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 60475000 ps
+Time: 60475 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 67975000 ps
+Time: 67975 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 75385000 ps
+Time: 75385 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 82885000 ps
+Time: 82885 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 68 at 90295000 ps
+Time: 90295 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 68 at 97795000 ps
+Time: 97795 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 68 at 105205000 ps
+Time: 105205 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 68 at 112705000 ps
+Time: 112705 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 25 at 120115000 ps
+Time: 120115 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 124705000 ps
+Time: 124705 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: PASS (0): SIMULATION FINISHED || Input/Output files :: ^0^pdi.txt/sdi.txt/do.txt
+Time: 129205 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 1 at 60000 ps
+Time: 60 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 2 at 1735000 ps
+Time: 1735 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 3 at 3265000 ps
+Time: 3265 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 4 at 6335000 ps
+Time: 6335 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 5 at 9315000 ps
+Time: 9315 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 6 at 16895000 ps
+Time: 16895 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 202 at 24385000 ps
+Time: 24385 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 202 at 29025000 ps
+Time: 29025 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 25 at 33575000 ps
+Time: 33575 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 25 at 39615000 ps
+Time: 39615 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 45565000 ps
+Time: 45565 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 53065000 ps
+Time: 53065 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 60475000 ps
+Time: 60475 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 67975000 ps
+Time: 67975 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 75385000 ps
+Time: 75385 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 82885000 ps
+Time: 82885 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 68 at 90295000 ps
+Time: 90295 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 68 at 97795000 ps
+Time: 97795 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 68 at 105205000 ps
+Time: 105205 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 68 at 112705000 ps
+Time: 112705 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 25 at 120115000 ps
+Time: 120115 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 124705000 ps
+Time: 124705 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: PASS (0): SIMULATION FINISHED || Input/Output files :: ^0^pdi.txt/sdi.txt/do.txt
+Time: 129205 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 25 at 60000 ps
+Time: 60 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: ---------Started verifying message number 67 at 4705000 ps
+Time: 4705 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd
+Error: PASS (0): SIMULATION FINISHED || Input/Output files :: ^0^pdi.txt/sdi.txt/do.txt
+Time: 9205 ns  Iteration: 0  Process: /LWC_TB/tb_verifydata  File: C:/After 19-5-2020/spoc/LWC_TB.vhd

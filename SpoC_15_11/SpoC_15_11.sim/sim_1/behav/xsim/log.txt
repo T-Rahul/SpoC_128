@@ -1,0 +1,19 @@
+[Log] == Verifying msg ID #25 with key ID #1 for ENC
+[Log]     Expected: 5200000C Received: 5200000C Matched!
+[Log]     Expected: 00010203 Received: 00010203 Matched!
+[Log]     Expected: 04050607 Received: 04050607 Matched!
+[Log]     Expected: 08090A0B Received: 08090A0B Matched!
+[Log]     Expected: 83000010 Received: 83000010 Matched!
+[Log]     Expected: AC424C78 Received: AC424C78 Matched!
+[Log]     Expected: 2E297ECE Received: 2E297ECE Matched!
+[Log]     Expected: B5CB5A69 Received: B5CB5A69 Matched!
+[Log]     Expected: 11DDCB9F Received: 11DDCB9F Matched!
+[Log]     Expected: E0000000 Received: E0000000 Matched!
+[Log] == Verifying msg ID #67 with key ID #1 for DEC
+[Log]     Expected: 4300000E Received: 4300000E Matched!
+[Log]     Expected: 5CE87836 Received: 5CE87836 Matched!
+[Log]     Expected: 4474537E Received: 4474537E Matched!
+[Log]     Expected: DF8FF672 Received: DF8FF672 Matched!
+[Log]     Expected: 7F120000 Received: 7F120000 Matched!
+[Log]     Expected: E0000000 Received: E0000000 Matched!
+[Log] Done

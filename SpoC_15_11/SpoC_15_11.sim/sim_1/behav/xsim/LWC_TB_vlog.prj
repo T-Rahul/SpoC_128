@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../After 19-5-2020/spoc/Controller.v" \
+"../../../../../../../After 19-5-2020/spoc/CryptoCore.v" \
+"../../../../../../../After 19-5-2020/spoc/Datapath.v" \
+"../../../../../../../After 19-5-2020/spoc/SB.v" \
+"../../../../../../../After 19-5-2020/spoc/SliSCP_step.v" \
+"../../../../../../../After 19-5-2020/spoc/d_ff.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

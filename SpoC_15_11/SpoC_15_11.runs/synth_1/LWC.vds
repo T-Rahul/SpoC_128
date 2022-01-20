@@ -1,0 +1,875 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Feb 15 09:31:08 2021
+# Process ID: 15684
+# Current directory: C:/Users/HP/SpoC_15_11/SpoC_15_11.runs/synth_1
+# Command line: vivado.exe -log LWC.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LWC.tcl
+# Log file: C:/Users/HP/SpoC_15_11/SpoC_15_11.runs/synth_1/LWC.vds
+# Journal file: C:/Users/HP/SpoC_15_11/SpoC_15_11.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source LWC.tcl -notrace
+Command: synth_design -top LWC -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3008 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 410.094 ; gain = 96.859
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'LWC' [C:/After 19-5-2020/spoc/LWC.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'PreProcessor' [C:/After 19-5-2020/spoc/PreProcessor.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'StepDownCountLd' [C:/After 19-5-2020/spoc/StepDownCountLd.vhd:45]
+	Parameter N bound to: 16 - type: integer 
+	Parameter step bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'StepDownCountLd' (1#1) [C:/After 19-5-2020/spoc/StepDownCountLd.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'KEY_PISO' [C:/After 19-5-2020/spoc/key_piso.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'KEY_PISO' (2#1) [C:/After 19-5-2020/spoc/key_piso.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'DATA_PISO' [C:/After 19-5-2020/spoc/data_piso.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'DATA_PISO' (3#1) [C:/After 19-5-2020/spoc/data_piso.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'PreProcessor' (4#1) [C:/After 19-5-2020/spoc/PreProcessor.vhd:75]
+INFO: [Synth 8-3491] module 'CryptoCore' declared at 'C:/After 19-5-2020/spoc/CryptoCore.v:2' bound to instance 'Inst_Cipher' of component 'CryptoCore' [C:/After 19-5-2020/spoc/LWC.vhd:169]
+INFO: [Synth 8-6157] synthesizing module 'CryptoCore' [C:/After 19-5-2020/spoc/CryptoCore.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [C:/After 19-5-2020/spoc/Datapath.v:3]
+	Parameter WIDTH bound to: 64 - type: integer 
+	Parameter PW bound to: 32 - type: integer 
+	Parameter SW bound to: 32 - type: integer 
+	Parameter G_KEY_SIZE bound to: 128 - type: integer 
+	Parameter G_NPUB_SIZE bound to: 128 - type: integer 
+	Parameter MAXCTR bound to: 17 - type: integer 
+	Parameter AD_TYPE bound to: 4'b0001 
+	Parameter ZEROES112 bound to: 112'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ZEROES104 bound to: 104'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ZEROES96 bound to: 96'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ZEROES88 bound to: 88'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ZEROES80 bound to: 80'b00000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ZEROES72 bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ZEROES64 bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ZEROES56 bound to: 56'b00000000000000000000000000000000000000000000000000000000 
+	Parameter ZEROES48 bound to: 48'b000000000000000000000000000000000000000000000000 
+	Parameter ZEROES40 bound to: 40'b0000000000000000000000000000000000000000 
+	Parameter ZEROES32 bound to: 0 - type: integer 
+	Parameter ZEROES24 bound to: 24'b000000000000000000000000 
+	Parameter ZEROES16 bound to: 16'b0000000000000000 
+	Parameter ZEROES8 bound to: 8'b00000000 
+	Parameter t bound to: 56 - type: integer 
+	Parameter INIT_ST bound to: 1'b0 
+	Parameter RUN_ST bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'SLiSCP_step' [C:/After 19-5-2020/spoc/SliSCP_step.v:2]
+	Parameter WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'SB' [C:/After 19-5-2020/spoc/SB.v:3]
+	Parameter WIDTH bound to: 64 - type: integer 
+	Parameter MAXCTR bound to: 3'b111 
+INFO: [Synth 8-6157] synthesizing module 'd_ff' [C:/After 19-5-2020/spoc/d_ff.v:3]
+	Parameter WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'd_ff' (5#1) [C:/After 19-5-2020/spoc/d_ff.v:3]
+INFO: [Synth 8-6157] synthesizing module 'd_ff__parameterized0' [C:/After 19-5-2020/spoc/d_ff.v:3]
+	Parameter WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'd_ff__parameterized0' (5#1) [C:/After 19-5-2020/spoc/d_ff.v:3]
+INFO: [Synth 8-6157] synthesizing module 'd_ff__parameterized1' [C:/After 19-5-2020/spoc/d_ff.v:3]
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'd_ff__parameterized1' (5#1) [C:/After 19-5-2020/spoc/d_ff.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'SB' (6#1) [C:/After 19-5-2020/spoc/SB.v:3]
+WARNING: [Synth 8-350] instance 'S3' of module 'SB' requires 7 connections, but only 6 given [C:/After 19-5-2020/spoc/SliSCP_step.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'SLiSCP_step' (7#1) [C:/After 19-5-2020/spoc/SliSCP_step.v:2]
+INFO: [Synth 8-6157] synthesizing module 'd_ff__parameterized2' [C:/After 19-5-2020/spoc/d_ff.v:3]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'd_ff__parameterized2' (7#1) [C:/After 19-5-2020/spoc/d_ff.v:3]
+INFO: [Synth 8-226] default block is never used [C:/After 19-5-2020/spoc/Datapath.v:259]
+INFO: [Synth 8-6157] synthesizing module 'd_ff__parameterized3' [C:/After 19-5-2020/spoc/d_ff.v:3]
+	Parameter WIDTH bound to: 128 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'd_ff__parameterized3' (7#1) [C:/After 19-5-2020/spoc/d_ff.v:3]
+INFO: [Synth 8-6157] synthesizing module 'd_ff__parameterized4' [C:/After 19-5-2020/spoc/d_ff.v:3]
+	Parameter WIDTH bound to: 256 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'd_ff__parameterized4' (7#1) [C:/After 19-5-2020/spoc/d_ff.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Datapath' (8#1) [C:/After 19-5-2020/spoc/Datapath.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Controller' [C:/After 19-5-2020/spoc/Controller.v:3]
+	Parameter RESET_ST bound to: 4'b0000 
+	Parameter CHECK_KEY_ST bound to: 4'b0001 
+	Parameter LOAD_KEY_ST bound to: 4'b0010 
+	Parameter LOAD_NPUB_ST bound to: 4'b0011 
+	Parameter INIT_ST bound to: 4'b0100 
+	Parameter FINISH_INIT_ST bound to: 4'b0101 
+	Parameter UPDATE_ST bound to: 4'b0110 
+	Parameter PROC_ST bound to: 4'b0111 
+	Parameter STORE_PROC_ST bound to: 4'b1000 
+	Parameter FINISH_PROC_ST bound to: 4'b1001 
+	Parameter WRITE_PTCT_ST bound to: 4'b1010 
+	Parameter PRE_TAG_ST bound to: 4'b1011 
+	Parameter TAG_ST bound to: 4'b1100 
+	Parameter LD_EXP_TAG_ST bound to: 4'b1101 
+	Parameter STORE_TAG_ST bound to: 4'b1110 
+	Parameter FINISH_TAG_ST bound to: 4'b1111 
+	Parameter AD_TYPE bound to: 4'b0001 
+	Parameter KEY_WORDS bound to: 3'b100 
+	Parameter NPUB_WORDS bound to: 3'b100 
+INFO: [Synth 8-6155] done synthesizing module 'Controller' (9#1) [C:/After 19-5-2020/spoc/Controller.v:3]
+WARNING: [Synth 8-350] instance 'ctrl_inst' of module 'Controller' requires 39 connections, but only 38 given [C:/After 19-5-2020/spoc/CryptoCore.v:86]
+WARNING: [Synth 8-3848] Net bdo_type in module/entity CryptoCore does not have driver. [C:/After 19-5-2020/spoc/CryptoCore.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'CryptoCore' (10#1) [C:/After 19-5-2020/spoc/CryptoCore.v:2]
+INFO: [Synth 8-638] synthesizing module 'PostProcessor' [C:/After 19-5-2020/spoc/PostProcessor.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'DATA_SIPO' [C:/After 19-5-2020/spoc/data_sipo.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'DATA_SIPO' (11#1) [C:/After 19-5-2020/spoc/data_sipo.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'PostProcessor' (12#1) [C:/After 19-5-2020/spoc/PostProcessor.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'fwft_fifo' [C:/After 19-5-2020/spoc/fwft_fifo.vhd:43]
+	Parameter G_W bound to: 32 - type: integer 
+	Parameter G_LOG2DEPTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fwft_fifo' (13#1) [C:/After 19-5-2020/spoc/fwft_fifo.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'LWC' (14#1) [C:/After 19-5-2020/spoc/LWC.vhd:51]
+WARNING: [Synth 8-3331] design DATA_SIPO has unconnected port clk
+WARNING: [Synth 8-3331] design DATA_SIPO has unconnected port rst
+WARNING: [Synth 8-3331] design DATA_SIPO has unconnected port end_of_input
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port bdo_type[3]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port bdo_type[2]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port bdo_type[1]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port bdo_type[0]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port cmd[27]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port cmd[26]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port cmd[24]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port cmd[23]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port cmd[22]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port cmd[21]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port cmd[20]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port cmd[19]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port cmd[18]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port cmd[17]
+WARNING: [Synth 8-3331] design PostProcessor has unconnected port cmd[16]
+WARNING: [Synth 8-3331] design Controller has unconnected port bdi_partial
+WARNING: [Synth 8-3331] design Datapath has unconnected port init_state
+WARNING: [Synth 8-3331] design Datapath has unconnected port bdi_type[3]
+WARNING: [Synth 8-3331] design Datapath has unconnected port bdi_type[2]
+WARNING: [Synth 8-3331] design Datapath has unconnected port bdi_type[1]
+WARNING: [Synth 8-3331] design Datapath has unconnected port bdi_type[0]
+WARNING: [Synth 8-3331] design CryptoCore has unconnected port bdo_type[3]
+WARNING: [Synth 8-3331] design CryptoCore has unconnected port bdo_type[2]
+WARNING: [Synth 8-3331] design CryptoCore has unconnected port bdo_type[1]
+WARNING: [Synth 8-3331] design CryptoCore has unconnected port bdo_type[0]
+WARNING: [Synth 8-3331] design CryptoCore has unconnected port hash_in
+WARNING: [Synth 8-3331] design CryptoCore has unconnected port bdi_valid_bytes[3]
+WARNING: [Synth 8-3331] design CryptoCore has unconnected port bdi_valid_bytes[2]
+WARNING: [Synth 8-3331] design CryptoCore has unconnected port bdi_valid_bytes[1]
+WARNING: [Synth 8-3331] design CryptoCore has unconnected port bdi_valid_bytes[0]
+WARNING: [Synth 8-3331] design CryptoCore has unconnected port bdi_pad_loc[3]
+WARNING: [Synth 8-3331] design CryptoCore has unconnected port bdi_pad_loc[2]
+WARNING: [Synth 8-3331] design CryptoCore has unconnected port bdi_pad_loc[1]
+WARNING: [Synth 8-3331] design CryptoCore has unconnected port bdi_pad_loc[0]
+WARNING: [Synth 8-3331] design DATA_PISO has unconnected port clk
+WARNING: [Synth 8-3331] design DATA_PISO has unconnected port rst
+WARNING: [Synth 8-3331] design KEY_PISO has unconnected port clk
+WARNING: [Synth 8-3331] design KEY_PISO has unconnected port rst
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 469.977 ; gain = 156.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 469.977 ; gain = 156.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 469.977 ; gain = 156.742
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-802] inferred FSM for state register 'FSM_32BIT.pr_state_reg' in module 'PreProcessor'
+INFO: [Synth 8-5546] ROM "bdi_valid_bytes_p" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_loc_p" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "sel_sdi_length" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "key_update" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_hash_internal" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "nx_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rnd_done" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "step_done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "set_TR" won't be mapped to RAM because address size (56) is larger than maximum supported(25)
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_state_reg' in module 'Controller'
+INFO: [Synth 8-5544] ROM "reset_bdo_ctr" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "en_ld_ctr" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "en_decrypt_reg" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "reset_bdi_ctr" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "en_bdi_ctr" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "en_bdo_ctr" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdi_type_reg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "reset_eoi_flag" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "lock_tag_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "init_lock" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "start" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_fsm_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'FSM_32BIT.pr_state_reg' in module 'PostProcessor'
+INFO: [Synth 8-5544] ROM "nx_eot" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "do_last" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "msg_auth_ready" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              s_int_mode |                  000000000000001 |                             0000
+               s_int_key |                  000000000000010 |                             0001
+               s_hdr_key |                  000000000000100 |                             0010
+                s_ld_key |                  000000000001000 |                             0011
+              s_hdr_npub |                  000000000010000 |                             0100
+               s_ld_npub |                  000000000100000 |                             0101
+                s_hdr_ad |                  000000001000000 |                             0110
+                 s_ld_ad |                  000000010000000 |                             0111
+               s_hdr_msg |                  000000100000000 |                             1000
+                s_ld_msg |                  000001000000000 |                             1001
+               s_hdr_tag |                  000010000000000 |                             1010
+                s_ld_tag |                  000100000000000 |                             1011
+              s_hdr_hash |                  001000000000000 |                             1100
+            s_empty_hash |                  010000000000000 |                             1110
+               s_ld_hash |                  100000000000000 |                             1101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'FSM_32BIT.pr_state_reg' using encoding 'one-hot' in module 'PreProcessor'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                RESET_ST |                  000000000000001 |                             0000
+            CHECK_KEY_ST |                  000000000000010 |                             0001
+             LOAD_KEY_ST |                  000000000000100 |                             0010
+            LOAD_NPUB_ST |                  000000000001000 |                             0011
+                 INIT_ST |                  000000000010000 |                             0100
+               UPDATE_ST |                  000000000100000 |                             0110
+                 PROC_ST |                  000000001000000 |                             0111
+           STORE_PROC_ST |                  000000010000000 |                             1000
+          FINISH_PROC_ST |                  000000100000000 |                             1001
+           WRITE_PTCT_ST |                  000001000000000 |                             1010
+              PRE_TAG_ST |                  000010000000000 |                             1011
+                  TAG_ST |                  000100000000000 |                             1100
+           LD_EXP_TAG_ST |                  001000000000000 |                             1101
+            STORE_TAG_ST |                  010000000000000 |                             1110
+           FINISH_TAG_ST |                  100000000000000 |                             1111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_state_reg' using encoding 'one-hot' in module 'Controller'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_init |                       0000000001 |                             0000
+        s_hdr_hash_value |                       0000000010 |                             0001
+        s_out_hash_value |                       0000000100 |                             0010
+               s_hdr_msg |                       0000001000 |                             0011
+               s_out_msg |                       0000010000 |                             0100
+               s_ver_tag |                       0000100000 |                             0111
+           s_status_fail |                       0001000000 |                             1000
+               s_hdr_tag |                       0010000000 |                             0101
+               s_out_tag |                       0100000000 |                             0110
+        s_status_success |                       1000000000 |                             1001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'FSM_32BIT.pr_state_reg' using encoding 'one-hot' in module 'PostProcessor'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 504.965 ; gain = 191.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 5     
++---XORs : 
+	   3 Input     64 Bit         XORs := 2     
+	   2 Input     64 Bit         XORs := 2     
+	   4 Input     32 Bit         XORs := 2     
+	   2 Input     32 Bit         XORs := 4     
+	   2 Input      4 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	              256 Bit    Registers := 1     
+	              128 Bit    Registers := 4     
+	               64 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 4     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 13    
++---RAMs : 
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input    256 Bit        Muxes := 3     
+	   2 Input    128 Bit        Muxes := 18    
+	   4 Input    128 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 22    
+	  10 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	  43 Input     15 Bit        Muxes := 2     
+	  28 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 3     
+	  15 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 7     
+	   4 Input      2 Bit        Muxes := 1     
+	  15 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 29    
+	  15 Input      1 Bit        Muxes := 33    
+	  10 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module StepDownCountLd 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module PreProcessor 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	  43 Input     15 Bit        Muxes := 1     
+	  15 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	  15 Input      1 Bit        Muxes := 9     
+Module d_ff 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+Module d_ff__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
+Module d_ff__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module SB 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   4 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+Module SLiSCP_step 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input     64 Bit         XORs := 2     
+Module d_ff__parameterized2 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module d_ff__parameterized3 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+Module d_ff__parameterized4 
+Detailed RTL Component Info : 
++---Registers : 
+	              256 Bit    Registers := 1     
+Module Datapath 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 3     
++---XORs : 
+	   2 Input     64 Bit         XORs := 2     
+	   2 Input     32 Bit         XORs := 4     
+	   2 Input      4 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	              128 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input    256 Bit        Muxes := 3     
+	   2 Input    128 Bit        Muxes := 18    
+	   4 Input    128 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 16    
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+Module Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 3     
++---Registers : 
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	  43 Input     15 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	  15 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	  15 Input      1 Bit        Muxes := 24    
+Module PostProcessor 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	  10 Input     32 Bit        Muxes := 1     
+	  28 Input     10 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 8     
+Module fwft_fifo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	                3 Bit    Registers := 1     
++---RAMs : 
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bdo1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bdi_pad_half1" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element Inst_PreProcessor/hash_internal_reg was removed.  [C:/After 19-5-2020/spoc/PreProcessor.vhd:179]
+WARNING: [Synth 8-3331] design Datapath has unconnected port init_state
+WARNING: [Synth 8-3331] design Datapath has unconnected port bdi_type[3]
+WARNING: [Synth 8-3331] design Datapath has unconnected port bdi_type[2]
+WARNING: [Synth 8-3331] design Datapath has unconnected port bdi_type[1]
+WARNING: [Synth 8-3331] design Datapath has unconnected port bdi_type[0]
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/step_func/S3/rc_rg/q_reg[7]' (FDRE) to 'Inst_Cipher/data_path_inst/step_func/S1/rc_rg/q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Inst_Cipher/data_path_inst /step_func/\S1/rc_rg/q_reg[7] )
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[0]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[1]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[2]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[3]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[4]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[5]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[6]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[8]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[9]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[10]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[11]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[12]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[13]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[14]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[15]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[16]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[17]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[17]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[18]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[18]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[19]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[19]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[20]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[20]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[21]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[21]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[22]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[22]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[23]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[24]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[25]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[25]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[26]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[26]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[27]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[27]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[28]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[28]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[29]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[29]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[30]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[30]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[31]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[32]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[33]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[33]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[34]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[34]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[35]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[35]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[36]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[36]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[37]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[37]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[38]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[38]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[39]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[40]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[41]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[41]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[42]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[42]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[43]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[43]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[44]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[44]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[45]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[45]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[46]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[46]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[47]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[48]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[49]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[49]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[50]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[50]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[51]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[51]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[52]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[52]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[53]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[53]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[54]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[54]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[55]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[56]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[57]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[57]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[58]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[58]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[59]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[59]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[60]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[60]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[61]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[61]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[62]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[62]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[63]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[64]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[65]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[65]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[66]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[66]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[67]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[67]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[68]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[68]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[69]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[69]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[70]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[70]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[71]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[72]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[73]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[73]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[74]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[74]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[75]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[75]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[76]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[76]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[77]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[77]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[78]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[78]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[79]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[80]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[81]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[81]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[82]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[82]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[83]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[83]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[84]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[84]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[85]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[85]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[86]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[86]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[87]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[88]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[89]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[89]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[90]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[90]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[91]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[91]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[92]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[92]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[93]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[93]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[94]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[94]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[95]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[96]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[97]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[97]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[98]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[98]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[99]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[99]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[100]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[100]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[101]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[101]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[102]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[102]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[103]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[104]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[105]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[105]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[106]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[106]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[107]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[107]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[108]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[108]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[109]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[109]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[110]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[110]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[111]'
+INFO: [Synth 8-3886] merging instance 'Inst_Cipher/data_path_inst/trunc_mask_reg[112]' (FDSE) to 'Inst_Cipher/data_path_inst/trunc_mask_reg[113]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (S1/rc_rg/q_reg[7]) is unused and will be removed from module SLiSCP_step.
+WARNING: [Synth 8-3332] Sequential element (set_TR_reg) is unused and will be removed from module Datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'Inst_Cipher/data_path_inst/set_TR_reg/Q' [C:/After 19-5-2020/spoc/Datapath.v:357]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'VCC' [C:/After 19-5-2020/spoc/Datapath.v:357]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/After 19-5-2020/spoc/Datapath.v:357]
+WARNING: [Synth 8-3332] Sequential element (set_TR_reg__0) is unused and will be removed from module Datapath.
+WARNING: [Synth 8-3332] Sequential element (Inst_Cipher/ctrl_inst/cum_size_rg/q_reg[4]) is unused and will be removed from module LWC.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 707.520 ; gain = 394.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|Datapath    | rc1        | 32x8          | LUT            | 
+|Datapath    | rc0        | 32x8          | LUT            | 
+|Datapath    | sc1        | 32x8          | LUT            | 
+|Datapath    | sc0        | 32x8          | LUT            | 
+|Datapath    | rc1        | 32x8          | LUT            | 
+|Datapath    | sc1        | 32x8          | LUT            | 
+|Datapath    | sc0        | 32x8          | LUT            | 
++------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+----------------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object                 | Inference | Size (Depth x Width) | Primitives   | 
++------------+----------------------------+-----------+----------------------+--------------+
+|LWC         | Inst_Header_Fifo/mem_s_reg | Implied   | 4 x 32               | RAM32M x 6   | 
++------------+----------------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 707.520 ; gain = 394.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+----------------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object                 | Inference | Size (Depth x Width) | Primitives   | 
++------------+----------------------------+-----------+----------------------+--------------+
+|LWC         | Inst_Header_Fifo/mem_s_reg | Implied   | 4 x 32               | RAM32M x 6   | 
++------------+----------------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 707.520 ; gain = 394.285
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 707.520 ; gain = 394.285
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Inst_Cipher/data_path_inst/reset_TR with 1st driver pin 'Inst_Cipher/data_path_inst/reset_TR_reg__0/Q' [C:/After 19-5-2020/spoc/Datapath.v:333]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Inst_Cipher/data_path_inst/reset_TR with 2nd driver pin 'Inst_Cipher/data_path_inst/reset_TR_reg/Q' [C:/After 19-5-2020/spoc/Datapath.v:337]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        1|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 707.520 ; gain = 394.285
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 707.520 ; gain = 394.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 707.520 ; gain = 394.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 707.520 ; gain = 394.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 707.520 ; gain = 394.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |CARRY4 |    24|
+|3     |LUT1   |     9|
+|4     |LUT2   |   430|
+|5     |LUT3   |   351|
+|6     |LUT4   |   273|
+|7     |LUT5   |   697|
+|8     |LUT6   |  1385|
+|9     |RAM32M |     5|
+|10    |FDRE   |   902|
+|11    |FDSE   |    20|
+|12    |IBUF   |    69|
+|13    |OBUF   |    36|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------+-----------------------+------+
+|      |Instance              |Module                 |Cells |
++------+----------------------+-----------------------+------+
+|1     |top                   |                       |  4204|
+|2     |  Inst_Cipher         |CryptoCore             |  3792|
+|3     |    ctrl_inst         |Controller             |   340|
+|4     |      cum_size_rg     |d_ff__parameterized2_6 |    10|
+|5     |    data_path_inst    |Datapath               |  3452|
+|6     |      bdi_rg          |d_ff__parameterized3   |   184|
+|7     |      cum_size_rg     |d_ff__parameterized2   |   945|
+|8     |      state_reg       |d_ff__parameterized4   |  1474|
+|9     |      step_ctr_reg    |d_ff__parameterized2_1 |    43|
+|10    |      step_func       |SLiSCP_step            |   519|
+|11    |        S1            |SB                     |   289|
+|12    |          rc_rg       |d_ff__parameterized1_3 |     7|
+|13    |          rnd_ctr_reg |d_ff_4                 |   218|
+|14    |          status_reg  |d_ff__parameterized0_5 |    64|
+|15    |        S3            |SB_2                   |   230|
+|16    |          rc_rg       |d_ff__parameterized1   |     7|
+|17    |          rnd_ctr_reg |d_ff                   |   159|
+|18    |          status_reg  |d_ff__parameterized0   |    64|
+|19    |  Inst_Header_Fifo    |fwft_fifo              |    62|
+|20    |  Inst_PostProcessor  |PostProcessor          |   104|
+|21    |    SegLen            |StepDownCountLd_0      |    31|
+|22    |  Inst_PreProcessor   |PreProcessor           |   138|
+|23    |    SegLen            |StepDownCountLd        |    66|
++------+----------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 707.520 ; gain = 394.285
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 5 critical warnings and 54 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 707.520 ; gain = 394.285
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 707.520 ; gain = 394.285
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 98 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 5 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+268 Infos, 54 Warnings, 5 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 757.410 ; gain = 457.320
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/HP/SpoC_15_11/SpoC_15_11.runs/synth_1/LWC.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file LWC_utilization_synth.rpt -pb LWC_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 757.410 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 15 09:31:35 2021...
