@@ -38,4 +38,5 @@ For example, the fifth case in `pdi.txt` describes the public data that is under
 Plaintext is A3EE and the key for the same case is provided as the fifth case of `sdi.txt`. The fifth case of `do.txt` is verified against which generated outputs ciphertext and the tag. The status of the verification (i.e, Success) will be printed in the `log.txt` file.
 
 
-`Controller flowchart` is the detailed state flowchart of the controller.
+`Controller flowchart` is the detailed flowchart of the controller states.
+
