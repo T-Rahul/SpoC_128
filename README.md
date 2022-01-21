@@ -1,7 +1,7 @@
 # Hardware Implementation of SpoC-128
 This repository has the Verilog code of API compliant SpoC-128
 
-`Code files` folder consists all the project files.
+`Code_files` folder consists all the project files.
 
 `Input_and_Expected_Output_Files` consists the test vectors.
 
