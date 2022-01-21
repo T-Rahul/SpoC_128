@@ -40,5 +40,5 @@ Plaintext is `A3EE` and the key for the same case is provided as the fifth case 
 https://user-images.githubusercontent.com/85212290/150531722-78eafc43-9e59-4193-9766-1b0b136d6fd8.mov
 
 
-[Controller flowchart](Controller flowchart.jpg) is the detailed flowchart of the controller states.
+[Controller flowchart](/Controller flowchart.jpg) is the detailed flowchart of the controller states.
 
