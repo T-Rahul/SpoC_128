@@ -1,7 +1,7 @@
 # Hardware Implementation of SpoC-128
-This repository has the Verilog code of API compliant SpoC-128. This is a lightweight AEAD (see this paper for more details).
+This repository contains the GMU-API compliant the Verilog code of the lightweight AEAD SpoC-128.
 
-## Repository Structure
+
 [Code_files](Code_files/) folder consists all the project files.
 
 [Input_and_Expected_Output_Files](Input_and_Expected_Output_Files/) consists the test vectors.
