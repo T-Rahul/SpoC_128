@@ -1,5 +1,5 @@
 # Hardware Implementation of SpoC-128
-This repository contains the GMU-API compliant Verilog code of the lightweight AEAD SpoC-128. The report for the same is put in Cryptology ePrint Archive and can be found [here](https://eprint.iacr.org/2022/119)
+This repository contains the GMU-API compliant Verilog code of the lightweight AEAD SpoC-128. The report for the same is put in Cryptology ePrint Archive and can be found [here](https://eprint.iacr.org/2022/119).
 
 
 [Code_files](Code_files/) folder consists all the project files.
